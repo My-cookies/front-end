@@ -1,8 +1,19 @@
 body {
   margin: 0;
+  height: 100vh;
+  width: 100vw;
   font-family: 'Red Hat Display', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /*background: linear-gradient(130deg, #39658b, #584786);*/
+  background: black;
+  overflow: hidden;
+
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  color: #ffffff;
 }
 
 code {
