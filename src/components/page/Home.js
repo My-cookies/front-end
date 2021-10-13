@@ -1,13 +1,12 @@
-import SimpleButton from "../SimpleButton";
-import "../../assets/Home.css";
+import "../../assets/css/Home.css";
+import Logo from "../../assets/img/myCookies3.png";
 
 const Home = () => {
     const prenom = "romain";
 
     return (
         <div>
-            <p>{prenom}</p>
-            <SimpleButton />
+            <img src={Logo} alt=""/>
         </div>
     )
 }

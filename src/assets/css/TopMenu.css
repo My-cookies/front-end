@@ -1,0 +1,17 @@
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 20px auto;
+    width: 950px;
+}
+
+.item {
+    padding: 5px 30px;
+    font-size: 35px;
+}
+
+.item:hover{
+    color: #d00b60;
+    cursor: pointer;
+}
