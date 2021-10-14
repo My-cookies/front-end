@@ -1,3 +1,77 @@
-p {
-    font-size: 50px;
+.container-logo-accueil{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.div-image-logo{
+    display: flex;
+    padding-bottom: 8em;
+}
+.logo-page-accueil{
+    width: 350px;
+    height: 350px;
+    margin-top: 5em;
+    opacity: 0;
+}
+.l1,.l2, .l3, .l4{
+    animation-name: transparent;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+.l1{
+    animation-delay: 0s;
+}
+.l2{
+    animation-delay: 1s;
+}
+.l3{
+    animation-delay: 2s;
+}
+.l4{
+    animation-delay: 3s;
+}
+@keyframes transparent {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+.container-avis-client, .container-site-production{
+    display: flex;
+}
+.container-site-production{
+    margin: 100px;
+}
+.avis{
+    background-color: #1a1a1c;
+    border-radius: 20px;
+    width: 55em;
+    border: orange solid 1px;
+
+}
+p{
+    margin: 5px;
+}
+#Avis, #Prod{
+    text-align: center;
+    font-size: xx-large;
+    margin: 50px;
+}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10em;
+    padding: 5em;
+
+}
+
+.prod{
+    background-color: #1a1a1c;
+    border-radius: 20px;
+    width: 55em;
+    border: #00b4ff solid 1px;
 }
