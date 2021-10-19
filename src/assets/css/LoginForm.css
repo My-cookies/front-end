@@ -1,0 +1,81 @@
+.login-form {
+    height: 450px;
+    width: 520px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register-form{
+    height: 490px;
+    width: 520px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title-form {
+    margin-top: 30px;
+    font-size: 27px;
+    font-weight: 600;
+    color: black;
+}
+
+#text-form {
+    color: #AFBCD1;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.list-input {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.input-login-form:focus {
+    outline: none;
+}
+
+.input-login-form {
+    width: 430px;
+    height: 50px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    background: #F4F4F4;
+    border-radius: 10px;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.input-login-form::placeholder {
+    color: #d4d4d4;
+}
+#btn-form {
+    background: #e30866;
+    box-shadow: rgba(206, 11, 96, 0.58) 0px 4px 18px;
+    border-radius: 10px;
+    width: 440px;
+    height: 55px;
+    border: medium none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat, sans-serif;
+    padding: 0px;
+}
+
+#forget-password {
+    color: #AFBCD1;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: right;
+    width: 430px;
+}
