@@ -1,9 +1,11 @@
 import SimpleImageSlider from "react-simple-image-slider";
 const images = [
-    { url: "https://lamaisonduneon.com/wp-content/uploads/2020/09/21-Beauty-_ice-blue.jpg" },
-    { url: "https://media.adeo.com/marketplace/MKP/83109624/7a2c16b75fc6eb1091b5df007da72977.jpeg?width=1920" },
-    { url: "https://wee-static.com/cache/product/750x750/0000/0011/111380.jpg" },
-    { url: "https://media.adeo.com/marketplace/MKP/83082648/79465a0a7c882f88d9cf156cbb35a457.jpeg?width=1920" },
+    { url: "https://i.ibb.co/RDHc189/Spooky-cookie-2.png"},
+    { url: "https://media.discordapp.net/attachments/895217303485042718/900137043135463424/Spooky_cookie_1.png" },
+    { url: "https://i.ibb.co/Dfs16Lj/numero-18-em-estilo-neon-23-2148684885.png" },
+    { url: "https://i.ibb.co/hd4PKWy/cookies-neon-icon-Elements-of-Food-set-Simple-icon-for-websites-web-design-mobile-app-info-graphics.jpg" },
+    { url: "https://i.ibb.co/km3PGKs/Glowing-neon-line-Cookie-or-biscuit-with-chocolate-icon-isolated-on-brick-wall-background-Vector-Ill.jpg" },
+
 ];
 
 const Slider = () => {
