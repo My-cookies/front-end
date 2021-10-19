@@ -1,8 +1,12 @@
+import "../../assets/css/Login.css";
+import LoginForm from "../forms/LoginForm";
+
 const Login = () => {
 
+
     return (
-        <div>
-            <p>Login</p>
+        <div className="container-login">
+            <LoginForm />
         </div>
     )
 }

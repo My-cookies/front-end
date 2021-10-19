@@ -1,14 +1,16 @@
 import "../../assets/css/TopMenu.css";
 import CookieImage from "../../assets/img/cookieR.png";
+import {Link} from "react-router-dom";
+
 
 const TopMenu = () => {
     return (
         <div className="top-menu">
-            <div className="item">Accueil</div>
-            <div className="item">Catalogue</div>
+            <Link className="item" to="/">Accueil</Link>
+            <Link className="item" to="/catalog">Catalogue</Link>
             <div className="item"><img src={CookieImage} alt="" width={50}/></div>
-            <div className="item">Connexion</div>
-            <div className="item">Inscription</div>
+            <Link className="item" to="/login">Connexion</Link>
+            <Link className="item" to="/register">Inscription</Link>
         </div>
     )
 }
